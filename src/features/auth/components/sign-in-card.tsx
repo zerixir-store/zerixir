@@ -1,3 +1,4 @@
+import { FcGoogle } from "react-icons/fc";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -7,6 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
+import { Separator } from "@/components/ui/separator";
 
 export const SignInCard = () => {
   return (
@@ -41,6 +43,19 @@ export const SignInCard = () => {
             Continue
           </Button>
         </form>
+        <Separator />
+        <div className="flex flex-col gap-y-2.5">
+          <Button
+            disabled={false}
+            onClick={() => {}}
+            variant="outline"
+            size="lg"
+            className="w-full relative"
+          >
+            <FcGoogle className="size-5 absolute top-2.5 left-2.5" />
+            Continue with Google
+          </Button>
+        </div>
       </CardContent>
     </Card>
   );
