@@ -1,4 +1,6 @@
 import { FcGoogle } from "react-icons/fc";
+import { FaGithub } from "react-icons/fa";
+
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -54,6 +56,16 @@ export const SignInCard = () => {
           >
             <FcGoogle className="size-5 absolute top-2.5 left-2.5" />
             Continue with Google
+          </Button>
+          <Button
+            disabled={false}
+            onClick={() => {}}
+            variant="outline"
+            size="lg"
+            className="w-full relative"
+          >
+            <FaGithub className="size-5 absolute top-2.5 left-2.5" />
+            Continue with GitHub
           </Button>
         </div>
       </CardContent>
