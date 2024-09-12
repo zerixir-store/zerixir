@@ -1,1 +1,1 @@
-Going to add database by Convex, 35,16
+always make sure you run together bun run dev and bunx convex dev
