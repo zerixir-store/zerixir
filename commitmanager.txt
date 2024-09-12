@@ -1,1 +1,3 @@
 always make sure you run together bun run dev and bunx convex dev
+
+convex auth, authjs now - {46,53}
