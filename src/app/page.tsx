@@ -1,5 +1,6 @@
-import { AuthScreen } from "@/features/auth/components/auth-screen";
+"use client";
+import { useAuthActions } from "@convex-dev/auth/react";
 
 export default function Home() {
-  return <AuthScreen />;
+  return <div>Logged In!</div>;
 }
