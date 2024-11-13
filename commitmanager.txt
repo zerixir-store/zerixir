@@ -3,4 +3,3 @@ always make sure you run together bun run dev and bunx convex dev
 56,45 server side authentication after middleware to be done now i think
 15/4 continue
 
-CM
